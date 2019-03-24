@@ -1,0 +1,15 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int mass, speed, KE;
+	cout << "Enter mass of object";
+	cin >> mass;
+	cout << "Enter speed of object";
+	cin >> speed;
+	KE =  mass*speed*speed*1/2;
+	cout << "KE of object is:" << KE;
+	_getch();
+	return 0;
+}
