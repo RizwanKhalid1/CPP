@@ -1,0 +1,23 @@
+#include<iostream>
+#include<conio.h>
+
+usingnamespacestd;
+
+int area(int, int);
+
+int main()
+{
+	intwidth,height;
+
+	cout<<"Enter width and height of rectangular : ";
+	cin>>width>>height;
+	cout<<"area of rectangular is : "<< area(width,height) <<endl;
+	_getch();
+	return 0;
+}
+int area(intwidth, intheight) 
+{
+	int area = width*height;
+	return area;
+	
+}
