@@ -1,0 +1,56 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int  main()
+{
+	int value;
+	int num1, num2;
+	cout << "press 1 for addition " << endl;
+	cout << "press 2 for subtaction " << endl;
+	cout << "press 3 for multiplication " << endl;
+	cout << "press 4 for division " << endl;
+	cout << "press 5 for finding reminder " << endl;
+	cin >> value;
+	if (value == 1)
+	{
+		cout << "enter number 1" << endl;
+		cin >> num1;
+		cout << "enter number 2" << endl;
+		cin >> num2;
+		cout << "your answer is = " << num1 + num2 << endl;
+	}
+	if (value == 2)
+	{
+		cout << "enter number 1" << endl;
+		cin >> num1;
+		cout << "enter number 2" << endl;
+		cin >> num2;
+		cout << "your answer is = " << num1 - num2 << endl;
+	}
+	if (value == 3)
+	{
+		cout << "enter number 1" << endl;
+		cin >> num1;
+		cout << "enter number 2" << endl;
+		cin >> num2;
+		cout << "your answer is = " << num1*num2 << endl;
+	}
+	if (value == 4)
+	{
+		cout << "enter number 1" << endl;
+		cin >> num1;
+		cout << "enter number 2" << endl;
+		cin >> num2;
+		cout << "your answer is = " << num1 / num2 << endl;
+	}
+	if (value == 5)
+	{
+		cout << "enter number 1" << endl;
+		cin >> num1;
+		cout << "enter number 2" << endl;
+		cin >> num2;
+		cout << "your answer is = " << num1%num2 << endl;
+	}
+	_getch();
+	return 0;
+}
