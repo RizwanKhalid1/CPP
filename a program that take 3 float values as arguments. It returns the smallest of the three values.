@@ -1,0 +1,42 @@
+#include<iostream>
+#include<conio.h>
+
+usingnamespacestd;
+
+float minimum(float, float, float);
+
+int main()
+{
+	float a, b, c;
+
+	cout<<"Enter Three Integers: ";
+	cin>> a >> b >> c;
+	cout<<"Manimum is: "<< minimum(a, b, c) <<endl;
+	_getch();
+	return 0;
+}
+
+float minimum(floata, floatb, floatc) 
+{
+	if (a<b)
+	{
+		if (a<c)
+		{
+			returna;
+		}
+	}
+	elseif (b<a) 
+	{
+		if (b<c)
+		{
+			returnb; 
+		}
+	}
+	elseif (c<b)
+	{
+		if (c<a)
+		{
+			returnc;
+		}
+	}
+}
