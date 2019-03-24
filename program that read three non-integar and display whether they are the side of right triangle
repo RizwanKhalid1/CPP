@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int a, b, c;
+	cout << "Enter 3 number" << endl;
+	cin >> a >> b >> c;
+	if (c*c == a*a + b*b)
+	{
+		cout << "They are side of rigth angle triangle";
+	}
+	else
+	{
+		cout << "Not the side of rigth angle triangle";
+	}
+	_getch();
+	return 0;
+}
